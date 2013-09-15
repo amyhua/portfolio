@@ -1,0 +1,81 @@
+.wrapper {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.full-scale {
+    width: 100%;
+}
+.background {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+#frame {
+    z-index: 99;
+}
+
+/* NAV */
+.nav {
+    font-family: Quicksand;
+    font-size: 1.7em;
+    position: fixed;
+    bottom: 1.5em;
+    z-index: 750;
+}
+.nav a {
+    text-decoration: none;
+    color: #F0C;
+    text-align: right;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: left;
+}
+.nav a:hover {
+    color: #FFFFFF;
+}
+
+/*  */
+
+.container {
+    float:left;
+}
+.layer {
+    position:relative;
+    z-index: 50;
+}
+.main {
+    position: relative;
+    margin-left: 3em;
+    padding: 1em;
+    margin-top: 3em;
+    z-index: 500;
+}
+.white-box{
+    background-color: #FFF;
+    opacity: 0.75;
+    padding: 1em;
+    z-index: 999;
+}
+.tease {
+    padding-top: 50em;
+}
+.tease-sm{
+    padding-top: 25em;
+}
+.tease-lg {
+    padding-top: 75em;
+}
+
+/*  */
+.transition {
+    margin-bottom: -1em;
+}
+.transition-background{
+    position: relative;
+    width: 100%;
+    z-index: 0
+}

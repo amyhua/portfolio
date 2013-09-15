@@ -1,27 +1,15 @@
-/* Background Images */
+/* BACKGROUND */
 
-.background {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    min-width: 800px;
-    z-index: 0;
-}
-.full-scale {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: auto;
+#window-view {
+    background-image: url('<%= asset_path 'clouds.png' %>');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-#frame {
-    z-index: 100;
-}
+/* OVERLAYS */
 #balloon {
     padding-top: 25em;
-    padding-bottom: 1em;
+    padding-bottom: 21em;
     padding-left: 1em;
 }
 

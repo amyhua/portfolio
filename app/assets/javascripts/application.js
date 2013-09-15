@@ -15,6 +15,7 @@
 //= require_tree .
 
 $(document).ready(function() {
+
     function resizeWindow() {
         var height =      $(window).height()
         var height = height + 'px'
@@ -24,16 +25,32 @@ $(document).ready(function() {
     $(window).resize(function() {
         resizeWindow();
     })
-
    var scene = $('.scene').parallax();
 
-    $('li[data-type="floating-behind"]').each(function() {
-        var $float = $(this);
-        $(window).scroll(function() {
-            var yPos = -($window.scrollTop() / $float.data('speed'));
-            var coordinates = '50% ' + yPos + 'px';
-            // Move background
-            $float.css({backgroundPosition: coords });
-        });
+    var height = $(window).height() + 'px';
+    var width = $('#window-view').width();
+    $('.transition-background').css({'height':height, 'width': width});
+
+    $(window).resize(function() {
+        var height = $(window).height() + 'px';
+        var width = $('#window-view').width();
+        $('.transition-background').css({'height':height, 'width': width});
     });
+    // Fix background at certain scroll positions
+    $(window).scroll(function() {
+        var top = Math.floor($('#before-uchicago').offset().top);
+        if ($(this).scrollTop() > (top - 500)) {
+            $('#window-view').css('background-image',"url('/assets/uchicago.png')");
+        }
+        if ($(this).scrollTop()> top) {
+            $('#uchicago').addClass('hide-this');
+
+        }
+        // See former background if scrolling back up
+        if ($(this).scrollTop() < top) {
+            $('#uchicago').removeClass('hide-this');
+            $('#window-view').css('background-image',"url('/assets/clouds.png')");
+        }
+
+    })
 });
