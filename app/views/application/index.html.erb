@@ -1,24 +1,32 @@
-<ul>
-  <li class="background" id="frame">
-    <%= image_tag 'window.png', class: 'full-scale'%>
-  </li>
-  <li class="background" id="clouds"><%= image_tag 'clouds.png', class: 'full-scale'%></li>
-</ul>
+<div class='full-scale'>
+  <%= image_tag 'window.png', id: 'frame', class: 'background'%>
 
+  <div class="row">
+    <div class="col-xs-offset-5 col-xs-7">
+      <ul class="nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
 
-  <ul class="nav">
-    <li><a href="#">SKILLS</a></li>
-    <li><a href="#">ABOUT</a></li>
-    <li><a href="#">WORK</a></li>
-    <li><a href="#">CONTACT</a></li>
-  </ul>
-
-
+  <div id="clouds"><%= image_tag 'clouds.png', class: 'background' %></div>
+  <div style="position: relative; z-index: 500">
+    <% (1..100).each do |i| %>
+        Scrolling text <%=i%><br>
+    <% end %>
+  </div>
+</div>
 <div class="row">
   <div class="col-sm-6">
     <div class=" main container" data-speed="1">
-      <span class="header">AMY<br>HUA </span><br><br>
-      <span class="subheader"> Full Stack Web Developer</span>
+      <div class="title">
+        <span class="header">AMY<br>HUA </span><br><br>
+        <span class="subheader"> Full Stack Web Developer</span>
+      </div>
       <div class="tease"></div>
       <div class="white-box">
         <h1>Welcome!</h1>
@@ -62,48 +70,48 @@
 
     </div>
   </div>
-    <div class="col-sm-4">
-        <ul class="scene">
-          <li class="layer" data-type="floating-behind" data-speed="10" data-depth="3.0"><%= image_tag 'balloon.png', id: 'balloon'%></li>
-        </ul>
-      <div style="padding-top: 92em;"></div>
-      <ul class="scene">
-        <li class="layer" data-depth="0.5">
-          <div id="balloon-2">
-              <%= image_tag 'balloons_7_pegs.png', class: 'has-tags'%>
-              <ul class="balloon-tags left">
-                <li>Coffeescript</li>
-                <li>AJAX</li>
-                <li>Github</li>
-              </ul>
-              <ul class="balloon-tags right">
-                  <li>EmberJS</li>
-                  <li>Heroku</li>
-                  <li>Git</li>
-                  <li>AWS</li>
-              </ul>
-          </div>
-        </li>
-        <li class="layer" data-depth="2.0">
-          <div id="balloon-3">
-            <%= image_tag 'balloons_7_pegs_m.png', id: 'balloon-3', class: 'has-tags'%>
-            <ul class="balloon-tags left">
-              <li>Rails</li>
-              <li>CSS3</li>
-              <li>HTML5</li>
-            </ul>
-            <ul class="balloon-tags right">
-              <li>Ruby</li>
-              <li>Javascript</li>
-              <li>jQuery</li>
-              <li>ParallaxJS</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-
+  <div class="col-sm-4">
+    <ul class="scene">
+      <li class="layer" data-type="floating-behind" data-speed="10" data-depth="3.0"><%= image_tag 'balloon.png', id: 'balloon'%></li>
+    </ul>
+    <div style="padding-top: 92em;"></div>
+    <ul class="scene">
+      <li class="layer" data-depth="0.5">
+        <div id="balloon-2">
+          <%= image_tag 'balloons_7_pegs.png', class: 'has-tags'%>
+          <ul class="balloon-tags left">
+            <li>Coffeescript</li>
+            <li>AJAX</li>
+            <li>Github</li>
+          </ul>
+          <ul class="balloon-tags right">
+            <li>EmberJS</li>
+            <li>Heroku</li>
+            <li>Git</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+      </li>
+      <li class="layer" data-depth="2.0">
+        <div id="balloon-3">
+          <%= image_tag 'balloons_7_pegs_m.png', id: 'balloon-3', class: 'has-tags'%>
+          <ul class="balloon-tags left">
+            <li>Rails</li>
+            <li>CSS3</li>
+            <li>HTML5</li>
+          </ul>
+          <ul class="balloon-tags right">
+            <li>Ruby</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>ParallaxJS</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
   </div>
+
+</div>
 <div class="row">
   <div class="col-md-12">
     Let's Begin
@@ -139,3 +147,5 @@
     </ul>
   </div>
 </div>
+
+

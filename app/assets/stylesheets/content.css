@@ -10,20 +10,18 @@
     position:relative;
     z-index: 50;
 }
-#frame {
-    z-index: 999;
-}
 .main {
     position: relative;
     margin-left: 3em;
     padding: 1em;
     margin-top: 3em;
-    z-index: 999;
+    z-index: 500;
 }
 .white-box{
     background-color: #FFF;
     opacity: 0.75;
     padding: 1em;
+    z-index: 999;
 }
 .tease {
     padding-top: 50em;

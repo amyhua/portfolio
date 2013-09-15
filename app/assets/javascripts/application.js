@@ -15,6 +15,16 @@
 //= require_tree .
 
 $(document).ready(function() {
+    function resizeWindow() {
+        var height =      $(window).height()
+        var height = height + 'px'
+        $('.background').css('height', height);
+    }
+    resizeWindow();
+    $(window).resize(function() {
+        resizeWindow();
+    })
+
    var scene = $('.scene').parallax();
 
     $('li[data-type="floating-behind"]').each(function() {
