@@ -10,8 +10,8 @@
       <div class="nav">
         <a href="#">HOME</a>
         <a href="#skills">SKILLS</a>
-        <a href="#">ABOUT</a>
-        <a href="#">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#work">WORK</a>
         <a href="#">CONTACT</a>
       </div>
     </div>
@@ -36,7 +36,7 @@
         </div>
         <div style="padding-bottom: 40em;"></div>
         <div id="skills" style="padding-top: 8em"></div>
-        <div class="section white-box">
+        <div class="white-box">
           <h1>This portfolio has been brought to you by</h1>
           <ul class="lead two-column clearfix">
             <li>Ruby on Rails</li>
@@ -70,7 +70,12 @@
     </div>
     <div class="col-sm-4">
       <ul class="scene">
-        <li class="layer" data-type="floating-behind" data-speed="10" data-depth="3.0"><%= image_tag 'balloon.png', id: 'balloon'%></li>
+        <li class="layer" data-depth="3.0">
+          <div id="balloon">
+            <%= image_tag 'balloon.png'%>
+            <%= image_tag 'available_sign.png', id: 'available-sign'%>
+          </div>
+        </li>
       </ul>
       <div style="padding-top: 100em;"></div>
       <ul class="scene">
@@ -121,40 +126,61 @@
 
   <div style="padding-top: 85em;"></div>
 
+  <!-- TODO: add a printer on the desk for a print preview of the resume -->
   <div class="row">
     <div class="col-sm-6">
       <div class="main container">
-        <ul class="white-box">
-          <li>
-            <h1>Past Education</h1>
+        <div id="about" class="white-box">
+            <h1>About Me</h1>
             <p class="lead">
-              <span class="headline">University of Chicago 2012</span>
-              Mathematics with Specialization in Economics, B.S.
-              <br><br>
-              <span class="headline">CodeFellows 2013</span>
-              Silver & Gold Certification<br>
-              Ruby on Rails Full Stack Web Development<br><br>
-            </p>
-          </li>
-          <li>
-            <p class="lead">
-              This portfolio has been brought to you by<br>
-              Ruby on Rails<br>
-              HTML5<br>
-              CSS3<br>
-              Javascript<br>
-              jQuery<br>
-              ParallaxJS<br>
-              I also develop with<br>
-              Coffeescript<br>
-              EmberJS<br>
-            </p>
-          </li>
-        </ul>
-      </div>
+              My name is Amy Hua, and I'm a passionate 23-year-old web developer.
+              I graduated
+              from the <span style="color: #FF00AD">University of Chicago</span>
+              in 2012 after studying a B.S. in <span style="color: #FF00AD">Mathematics with
+              Specialization in Economics</span>.<br><br>
+              I did 2 years of social science research assistantships in economics,
+              sociology, and business. I also founded a non-profit affiliate chapter of 30-50
+              volunteers and started my own freelance tutoring business.
+              I look forward to eventually going
+              back to school to earn a Masters in Computer Science.<br><br>
+
+              I'm a well-rounded, hard-working, and ambitious person, and I'm guaranteed to always be
+              working on something.<br><br>
+
+          I recently graduated from an intensive study on web development from
+          <span style="color: #FF00AD">CodeFellows 2013</span> and found my love for
+          making products through code. I'm now working on
+          freelance work in between developing my project for a <span style="color: #FF00AD">virtual student debate
+              platform</span> and searching for <span style="color: #FF00AD">full-time work opportunities in the startup tech space.</span>
+          </p>
+        </div>
+        <div style="padding-top: 42em"></div>
+        <div id="work" style="padding-top: 8em"></div>
+        <div class="white-box">
+          <h1>My Work</h1>
+          <p class="lead">
+            You may not be seeing a lot. I only started doing projects
+            since mid 2013. But since that's the case, I'm willing to work
+            at a discounted rate if you help me build up my portfolio.<br><br>
+            I charge at the end of a feature instead of an hourly basis.
+            Although I may not have a lot of web development work to show for it,
+            I've been told that I picked it up <span style="color: #FF00AD">extremely fast.</span><br><br>
+            See the work I built <span style="color: #FF00AD">in just a few weeks time.</span>
+
+
+          </p>
+        </div>
+        <div style="padding-top: 50em"></div>
     </div>
   </div>
 
-  <div style="padding-top: 85em;"></div>
+    <div class="col-sm-5">
+      <div class="main container">
+        <span id="before-me"></span>
+        <%= image_tag 'me.png', id: 'me'%>
+      </div>
+  </div>
 
+  <div style="padding-top: 85em;"></div>
+</div>
 

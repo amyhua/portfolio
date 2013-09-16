@@ -16,6 +16,10 @@
 
 $(document).ready(function() {
 
+    // Hide or show images upon load
+    $('#me').hide();
+    $('#window-view').addClass('clouds');
+
     function resizeWindow() {
         var height =      $(window).height()
         var height = height + 'px'
@@ -38,19 +42,37 @@ $(document).ready(function() {
     });
     // Fix background at certain scroll positions
     $(window).scroll(function() {
-        var top = Math.floor($('#before-uchicago').offset().top);
-        if ($(this).scrollTop() > (top - 500)) {
-            $('#window-view').css('background-image',"url('/assets/uchicago.png')");
+        var uchicago_y = Math.floor($('#before-uchicago').offset().top);
+        var about_y = Math.floor($('#about').offset().top);
+        if ($(this).scrollTop() > (uchicago_y - 500)) {
+            // Change background to uchicago
+            $('#window-view').removeClass('clouds').addClass('uchicago');
         }
-        if ($(this).scrollTop()> top) {
-            $('#uchicago').addClass('hide-this');
+        if ($(this).scrollTop() <= uchicago_y) {
+            // Smoothly transition back to clouds
+            $('#uchicago').show();
+            $('#window-view').removeClass('uchicago').addClass('clouds');
+        } else {
+            // Smoothly transition to background uchicago image
+            $('#uchicago').hide();
 
         }
-        // See former background if scrolling back up
-        if ($(this).scrollTop() < top) {
-            $('#uchicago').removeClass('hide-this');
-            $('#window-view').css('background-image',"url('/assets/clouds.png')");
+        // Set picture frame if on about page
+
+        if ($(this).scrollTop() > (about_y-700)) {
+            $('#me').fadeIn();
         }
 
-    })
+    })     ;
+
+    // Navigation Links
+
+    $('.nav > a').on('click', function() {
+        var target = $(this).attr('href');
+        var targetOffset = $(target).offset().top;
+        $('html,body')
+            .animate({scrollTop: targetOffset}, 1000);
+
+
+    });
 });

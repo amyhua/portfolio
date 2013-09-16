@@ -1,9 +1,15 @@
 /* BACKGROUND */
 
 #window-view {
-    background-image: url('<%= asset_path 'clouds.png' %>');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.clouds {
+    background-image: url('<%= asset_path 'clouds.png' %>');
+}
+.uchicago {
+    background-image: url('<%= asset_path 'uchicago.png' %>');
 }
 
 /* OVERLAYS */
@@ -13,6 +19,11 @@
     padding-left: 1em;
 }
 
+#available-sign{
+    position:relative;
+    left: -139px;
+    top: 38px;
+}
 .has-tags{
     position:relative;
     z-index: 60;
@@ -78,4 +89,12 @@
     right: -10em;
     top: 11em;
     z-index: 55;
+}
+
+/* About */
+
+#me {
+    position: fixed;
+    bottom: 8%;
+    left: 53%;
 }
