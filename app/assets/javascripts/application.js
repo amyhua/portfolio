@@ -19,6 +19,9 @@ $(document).ready(function() {
     // Hide or show images upon load
     $('#me').hide();
     $('#window-view').addClass('clouds');
+    $('.filler').hide();
+
+    $('#seattle').hide();
 
     function resizeWindow() {
         var height =      $(window).height()
@@ -34,44 +37,64 @@ $(document).ready(function() {
     var height = $(window).height() + 'px';
     var width = $('#window-view').width();
     $('.transition-background').css({'height':height, 'width': width});
+    $('.filler').css('padding-top',height);
 
     $(window).resize(function() {
         var height = $(window).height() + 'px';
         var width = $('#window-view').width();
         $('.transition-background').css({'height':height, 'width': width});
+        $('.filler').css('padding-top',height);
     });
+
     // Fix background at certain scroll positions
     $(window).scroll(function() {
-        var uchicago_y = Math.floor($('#before-uchicago').offset().top);
-        var about_y = Math.floor($('#about').offset().top);
-        if ($(this).scrollTop() > (uchicago_y - 500)) {
-            // Change background to uchicago
-            $('#window-view').removeClass('clouds').addClass('uchicago');
-        }
-        if ($(this).scrollTop() <= uchicago_y) {
-            // Smoothly transition back to clouds
+        var seattle_y = $('#before-seattle').offset().top;
+        var uchicago_y = $('#before-uchicago').offset().top;
+        var about_y = $('#about').offset().top;
+
+        var pos_y = $(this).scrollTop();
+
+        if (pos_y <= uchicago_y) {
+            // Scroll up school and transition background to clouds && fade out frame
             $('#uchicago').show();
+            $('#uchicago-filler').hide();
             $('#window-view').removeClass('uchicago').addClass('clouds');
-        } else {
-            // Smoothly transition to background uchicago image
-            $('#uchicago').hide();
-
+            $('#me').fadeOut();
         }
-        // Set picture frame if on about page
+        if (pos_y > uchicago_y && pos_y < (seattle_y - 500)) {
+            // Change background to uchicago & display frame
+            if ($('#window-view').hasClass('clouds')){
+                $('#uchicago').hide();
+                $('#uchicago-filler').show();
+                $('#window-view').removeClass('clouds').addClass('uchicago');
+                $('#me').fadeIn();
+            }
 
-        if ($(this).scrollTop() > (about_y-700)) {
-            $('#me').fadeIn();
+
+            // Fade back to UChicago
+            if ($('#window-view').hasClass('seattle')) {
+                $('#window-view').fadeOut(function() {
+                    $(this).removeClass('seattle').addClass('uchicago').fadeIn();
+                });
+            }
         }
+        if (pos_y > (seattle_y - 500)) {
+            // Fade to Seattle
+            if ($('#window-view').hasClass('uchicago')) {
+                $('#window-view').fadeOut(function() {
+                    $(this).removeClass('uchicago').addClass('seattle').fadeIn();
+                });
+            }
+        }
+    });
 
-    })     ;
-
-    // Navigation Links
+    // Navigation Links - Smooth Scrolling
 
     $('.nav > a').on('click', function() {
         var target = $(this).attr('href');
         var targetOffset = $(target).offset().top;
         $('html,body')
-            .animate({scrollTop: targetOffset}, 1000);
+            .animate({scrollTop: targetOffset}, 1300);
 
 
     });
