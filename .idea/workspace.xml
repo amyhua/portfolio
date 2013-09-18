@@ -19,7 +19,7 @@
     <file path="/layers.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379378649003" ignored="false" />
     <file path="/Dummy.txt" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379457692130" ignored="false" />
     <file path="$PROJECT_DIR$/../eat-sumthin-v2/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379445579635" ignored="false" />
-    <file path="/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379384675881" ignored="false" />
+    <file path="/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379467279495" ignored="false" />
     <file path="/database.yml" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379384853344" ignored="false" />
     <file path="$PROJECT_DIR$/../eat-sumthin-v2/config/database.yml" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379384857338" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="468" selection-end="468" vertical-scroll-proportion="0.8118557">
+            <state line="23" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.88917524">
               <folding />
             </state>
           </provider>
@@ -927,7 +927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="468" selection-end="468" vertical-scroll-proportion="0.8118557">
+        <state line="23" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.88917524">
           <folding />
         </state>
       </provider>
