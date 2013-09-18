@@ -6,19 +6,30 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379204775643" ignored="false" />
     <file path="/application_controller.rb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379204860969" ignored="false" />
-    <file path="/index.html.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379376850890" ignored="false" />
+    <file path="/index.html.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379465697677" ignored="false" />
     <file path="/application.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379210264226" ignored="false" />
     <file path="/images.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379280035231" ignored="false" />
-    <file path="/application.js" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379377289752" ignored="false" />
+    <file path="/application.js" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379464091768" ignored="false" />
     <file path="/content.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379241287459" ignored="false" />
     <file path="/application.rb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379210211256" ignored="false" />
     <file path="/application.css.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379236463325" ignored="false" />
     <file path="/jquery.parallax.js" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379217219312" ignored="false" />
+<<<<<<< HEAD
     <file path="/application.css.scss.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379307838732" ignored="false" />
     <file path="/images.css.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379376783442" ignored="false" />
     <file path="/layers.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379278961222" ignored="false" />
     <file path="/Dummy.txt" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379284667762" ignored="false" />
     <file path="/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379487330365" ignored="false" />
+=======
+    <file path="/application.css.scss.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379465597385" ignored="false" />
+    <file path="/images.css.erb" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379463690169" ignored="false" />
+    <file path="/layers.css" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379378649003" ignored="false" />
+    <file path="/Dummy.txt" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379457692130" ignored="false" />
+    <file path="$PROJECT_DIR$/../eat-sumthin-v2/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379445579635" ignored="false" />
+    <file path="/Gemfile" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379467279495" ignored="false" />
+    <file path="/database.yml" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379384853344" ignored="false" />
+    <file path="$PROJECT_DIR$/../eat-sumthin-v2/config/database.yml" changelist="28742da9-02e0-477c-8acd-c303ffa9e416" time="1379384857338" ignored="false" />
+>>>>>>> master
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +52,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="19" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,18 +61,77 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="77" column="111" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1379487732000" expanded="true" signature="6958:7034" placeholder="{...}" />
+=======
+            <state line="232" column="23" selection-start="8007" selection-end="8007" vertical-scroll-proportion="-3.2">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#8;n#!!top" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="images.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images.css.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="27" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.88917524">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.css.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images.css.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="25" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trans.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/trans.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css.scss.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="22" selection-start="1845" selection-end="1845" vertical-scroll-proportion="-8.291667">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -70,7 +140,11 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="75" column="32" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
+=======
+            <state line="104" column="28" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.0">
+>>>>>>> master
               <folding>
                 <marker date="1379487732000" expanded="true" signature="2073:2162" placeholder="{...}" />
                 <marker date="1379487732000" expanded="true" signature="2639:2848" placeholder="{...}" />
@@ -82,10 +156,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jquery.parallax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="28" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="layers.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="11" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="72" column="6" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/responsive.css" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -120,11 +202,21 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/content.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/images.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layers.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss.erb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/images.css.erb" />
+=======
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/images.css.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js" />
+        <option value="$PROJECT_DIR$/app/views/extra.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -136,8 +228,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="222" />
     <option name="y" value="51" />
+=======
+    <option name="x" value="2009" />
+    <option name="y" value="500" />
+>>>>>>> master
     <option name="width" value="1218" />
     <option name="height" value="764" />
   </component>
@@ -211,6 +308,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,13 +501,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../live_plugin/app" />
     <property name="FullScreen" value="false" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eat-sumthin-v2" />
+>>>>>>> master
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/fonts" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
@@ -639,8 +758,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="222" y="51" width="1218" height="764" extended-state="0" />
     <editor active="false" />
+=======
+    <frame x="2009" y="500" width="1218" height="764" extended-state="0" />
+    <editor active="true" />
+>>>>>>> master
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -725,71 +849,126 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="88" selection-end="88" vertical-scroll-proportion="0.10869565" />
+        <state line="3" column="11" selection-start="88" selection-end="88" vertical-scroll-proportion="0.10869565">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="36" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.49275362" />
+        <state line="54" column="36" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.49275362">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="125" selection-end="125" vertical-scroll-proportion="-21.31884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="28" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.42925277" />
+        <state line="10" column="17" selection-start="125" selection-end="125" vertical-scroll-proportion="-21.31884">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/applications.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="21" selection-start="4717" selection-end="4717" vertical-scroll-proportion="5.1168222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+        <state line="3" column="11" selection-start="88" selection-end="88" vertical-scroll-proportion="0.10869565" />
+=======
+        <state line="219" column="21" selection-start="4717" selection-end="4717" vertical-scroll-proportion="5.1168222">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="45" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-41.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+>>>>>>> master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+        <state line="54" column="36" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.49275362" />
+=======
+        <state line="72" column="6" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="10" column="17" selection-start="125" selection-end="125" vertical-scroll-proportion="-21.31884" />
+=======
+        <state line="13" column="24" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="60" column="28" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.42925277" />
+=======
+        <state line="60" column="28" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="219" column="21" selection-start="4717" selection-end="4717" vertical-scroll-proportion="5.1168222" />
+=======
+        <state line="104" column="28" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/trans.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="30" selection-start="1054" selection-end="1459" vertical-scroll-proportion="0.68">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/extra.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="67" column="45" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-41.875" />
+=======
+        <state line="17" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.7005494">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images.css.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="25" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="32" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
@@ -800,6 +979,12 @@
             <marker date="1379487732000" expanded="true" signature="3027:3159" placeholder="{...}" />
             <marker date="1379487732000" expanded="true" signature="3265:3444" placeholder="{...}" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="22" selection-start="1845" selection-end="1845" vertical-scroll-proportion="-8.291667">
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -815,16 +1000,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="77" column="111" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1379487732000" expanded="true" signature="6958:7034" placeholder="{...}" />
+=======
+        <state line="232" column="23" selection-start="8007" selection-end="8007" vertical-scroll-proportion="-3.2">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#div#4;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#8;n#!!top" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images.css.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="27" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.88917524">
+>>>>>>> master
           <folding />
         </state>
       </provider>

@@ -8,18 +8,18 @@
   <div class="row">
     <div class="col-sm-offset-4 col-sm-8">
       <div class="nav">
-        <a href="#">HOME</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#about">ABOUT</a>
-        <a href="#work">WORK</a>
-        <a href="#">CONTACT</a>
+        <a href="#" data-link="#home">HOME</a>
+        <a href="#" data-link="#skills">SKILLS</a>
+        <a href="#" data-link="#about">ABOUT</a>
+        <a href="#" data-link="#work">WORK</a>
+        <a href="#" data-link="#contact">CONTACT</a>
       </div>
     </div>
   </div>
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container">
+      <div id="home" class="main container">
         <div class="title">
           <span class="header">AMY<br>HUA </span><br><br>
           <span class="subheader"> Full Stack Web Developer</span>
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-  <div style="padding-top:25em"></div>
+  <div style="padding-top:5em"></div>
 
   <div class="row">
     <div class="col-sm-6">
@@ -123,14 +123,12 @@
   <div class="row no-padding">
     <div class="col-md-12 no-padding">
       <%= image_tag 'daytonight.png', class: 'transition-background transition', id: 'daytonight'%>
-      <div style="padding-top: 44em; background-color: #382119"></div>
+      <div style="padding-top: 10em; background-color: #382119"></div>
       <span id="before-uchicago"></span>
       <div id="uchicago-filler" class="filler"></div>
       <%= image_tag 'uchicago.png', class: 'transition-background transition', id: 'uchicago'%>
     </div>
   </div>
-
-  <div style="padding-top: 75em;"></div>
 
   <!-- TODO: add a printer on the desk for a print preview of the resume -->
   <div class="row">
@@ -154,7 +152,7 @@
               working on something.<br><br>
           </p>
         </div>
-        <div style="padding-top: 42em"></div>
+        <div style="padding-top: 10em"></div>
         <span id="before-seattle"></span>
         <div id="seattle-filler" class="filler"></div>
         <div style="padding-top: 8em"></div>
@@ -181,33 +179,65 @@
     <div class="col-sm-6">
       <div class="main container">
 
-        <div id="work" style="padding-top: 8em"></div>
-        <div class="white-box">
+        <div style="padding-top: 8em"></div>
+        <div id="work" class="white-box">
           <h1>My Work</h1>
           <p class="lead">
-            I'm currently building...
+            I'm currently building:  <br><br>
+              <span style="color: #FF00AD">LivePlugin</span>: a Google Maps integrated events calendar application
+              for live events in your local area.
             <br><br>
-            You may not be seeing a lot. I only started doing projects
-            in mid 2013. But since that's the case, I'm willing to work
-            at a discounted rate if you help me build up my portfolio.<br><br>
-            I charge at the end of a feature instead of an hourly basis.
+            <span style="color: #FF00AD">LDD</span>: a virtual tournament platform, forums, and evidence exchange for local high school debaters.</li>
             <br><br>
-            See what I built <span style="color: #FF00AD">in just a few weeks time. >></span>
+            <span style="color: #FF00AD">Eat Sumthin</span>: a reverse recipe search engine that searches by ingredients.</b></li>
+            <br><br>
+
+            See what I built <a href="http://github.com/amyhua" style="color: #FF00AD">in just a few weeks time on my GitHub.</a>
 
 
           </p>
         </div>
         <div style="padding-top: 50em"></div>
+        <div style="padding-top: 8em"></div>
+        <div id="contact" class="white-box">
+          <h1>Contact Me</h1>
+          <p class="lead">
+            Stay in touch! And check back often. This site is still being actively updated.<br><br>
+            <a href="mailto: foramyhua@gmail.com">Email</a><br><br>
+            <a href="http://github.com/amyhua">Github</a><br><br>
+            <a href="http://linked.com/in/huaamy">LinkedIn</a><br><br>
+            <a href="http://twitter.com/amyhuaster">Twitter</a>
+
+
+          </p>
+        </div>
+        <div style="padding-top: 26em"></div>
     </div>
   </div>
 
     <div class="col-sm-5">
-      <div class="main container">
-        <span id="before-me"></span>
-        <%= image_tag 'me.png', id: 'me'%>
+      <div class="main container works">
+        <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
+
+
+
+
       </div>
   </div>
 
+
+
   <div style="padding-top: 85em;"></div>
 </div>
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44118129-1', 'amyhua.me');
+      ga('send', 'pageview');
+
+  </script>
 

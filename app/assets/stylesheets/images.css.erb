@@ -44,6 +44,7 @@
     background-color: #FDFCDC;
     margin-bottom: 29px;
     color: #747474;
+    opacity: 0.75;
     padding-left: 7px;
     padding-right: 7px;
 }
@@ -95,8 +96,59 @@
 
 /* About */
 
-#me {
+.desk-item {
     position: fixed;
-    bottom: 8%;
+}
+
+#me {
     left: 53%;
+    bottom: 10%;
+}
+
+/* Monitor Image crops */
+
+.monitor{
+    width:500px;
+    height:303px;
+    background:url(<%= asset_path 'screens.png'%>) 0 0;
+    left: 41%;
+    bottom: 15%;
+}
+.screen {
+    left: 41%;
+    bottom: 15%;
+    width: 376px;
+    height: 235px;
+    margin-bottom: 49px;
+    margin-left: 63px;
+
+}
+.liveplugin{
+    background:url(<%= asset_path 'screens.png'%>) 0px -549px;
+}
+.fridge{
+    background: url(<%=asset_path 'screens.png'%>) 0px -304px;
+}
+.ldd-1 {
+    background: url(<%=asset_path 'screens.png'%>) 0px -786px;
+}
+.ldd-2{
+    background: url(<%=asset_path 'screens.png'%>) 0px -1026px;
+}
+/* Arrows */
+.arrow{
+    position: fixed;
+    left: 41%;
+    bottom: 15%;
+    margin-bottom: 140px;
+    opacity: 0.25;
+}
+.arrow:hover {
+    opacity: 1;
+}
+.next {
+    margin-left: 462px;
+}
+.prev {
+    margin-left: 25px;
 }
