@@ -19,13 +19,13 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div id="home" class="main container">
+      <div id="home" class="main container peek-at-next">
         <div class="title">
           <span class="header">AMY<br>HUA </span><br><br>
           <span class="subheader"> Full Stack Web Developer</span>
         </div>
         <div style="padding-top: 7em;"></div>
-        <div class="title white-box">
+        <div class="title white-box" id="welcome">
           <h1>Welcome!</h1>
           <p class="lead">
             I am a Ruby on Rails developer with an artsy side.<br>
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-  <div style="padding-top:5em"></div>
+  <div class="freeSpace" style="padding-top: 50em"></div>
 
   <div class="row">
     <div class="col-sm-6">
@@ -82,7 +82,6 @@
       </div>
     </div>
     <div class="col-sm-5">
-      <div style="padding-top:10em"></div>
       <ul class="scene">
         <li class="layer" data-depth="0.5">
           <div id="balloon-2">
@@ -130,10 +129,11 @@
     </div>
   </div>
 
+
   <!-- TODO: add a printer on the desk for a print preview of the resume -->
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container">
+      <div class="main container peek-at-next">
         <div id="about" class="white-box">
             <h1>About Me</h1>
             <p class="lead">
@@ -152,10 +152,19 @@
               working on something.<br><br>
           </p>
         </div>
-        <div style="padding-top: 10em"></div>
-        <span id="before-seattle"></span>
-        <div id="seattle-filler" class="filler"></div>
-        <div style="padding-top: 8em"></div>
+        </div>
+      </div>
+    <div class="col-sm-5">
+      <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
+    </div>
+  </div>
+
+  <div class="freeSpace" style="padding-top: 50em"></div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <span id="before-seattle"></span>
+      <div class="main container peek-at-next">
         <div class="white-box">
           <p class="lead">
             I recently graduated from an intensive study on web development from
@@ -166,20 +175,15 @@
 
           </p>
         </div>
-        <div style="padding-top: 42em"></div>
-        </div>
       </div>
     </div>
-  <div class="row">
-    <div class="col-md-12">
+  </div>
 
-      </div>
-    </div>
+  <div class="freeSpace" style="padding-top: 50em"></div>
+
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container">
-
-        <div style="padding-top: 8em"></div>
+      <div class="main container peek-at-next">
         <div id="work" class="white-box">
           <h1>My Work</h1>
           <p class="lead">
@@ -193,42 +197,37 @@
             <br><br>
 
             See what I built <a href="http://github.com/amyhua" style="color: #FF00AD">in just a few weeks time on my GitHub.</a>
-
-
           </p>
         </div>
-        <div style="padding-top: 50em"></div>
-        <div style="padding-top: 8em"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="freeSpace" style="padding-top: 50em"></div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="main container peek-at-next">
         <div id="contact" class="white-box">
           <h1>Contact Me</h1>
           <p class="lead">
             Stay in touch! And check back often. This site is still being actively updated.<br><br>
-            <a href="mailto: foramyhua@gmail.com">Email</a><br><br>
-            <a href="http://github.com/amyhua">Github</a><br><br>
-            <a href="http://linked.com/in/huaamy">LinkedIn</a><br><br>
-            <a href="http://twitter.com/amyhuaster">Twitter</a>
-
-
+            <%= render 'contact_form' %>
           </p>
         </div>
-        <div style="padding-top: 26em"></div>
+        <div class="social">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'linkedin' %>
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'github' %>
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'twitter'%>
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'facebook'%>
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'mail' %>
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'phone' %>
+
+        </div>
+      </div>
     </div>
   </div>
-
-    <div class="col-sm-5">
-      <div class="main container works">
-        <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
-
-
-
-
-      </div>
-  </div>
-
-
-
-  <div style="padding-top: 85em;"></div>
-</div>
+  <div style="padding-top: 40px"></div>
 
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

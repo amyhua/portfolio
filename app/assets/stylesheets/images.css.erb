@@ -98,11 +98,12 @@
 
 .desk-item {
     position: fixed;
+    bottom: 7%;
+    z-index: 600;
 }
 
 #me {
     left: 53%;
-    bottom: 10%;
 }
 
 /* Monitor Image crops */
@@ -151,4 +152,44 @@
 }
 .prev {
     margin-left: 25px;
+}
+
+/* Contact Icons */
+.social{
+    padding: 1em;
+    text-align: center;
+
+}
+.contact-icons {
+    bottom: 17%;
+    width: 60px;
+    height: 58px;
+    margin-right: 5px;
+
+}
+#mail {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 -107px;
+
+}
+#phone {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 239px;
+
+}
+#linkedin {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 -281px;
+
+}
+
+#github {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 -50px;
+
+}
+
+#facebook {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 65px;
+
+}
+#twitter {
+    background: url(<%= asset_path 'contact_icons.png'%>) 0 -223px;
+
 }
