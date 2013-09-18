@@ -101,5 +101,5 @@ $(document).ready(function() {
             .animate({scrollTop: targetOffset}, 1000);
     });
 
-    $('.carousel').carousel();
+
 });
