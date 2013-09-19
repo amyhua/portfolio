@@ -1,7 +1,9 @@
 <div class="wrapper">
   <div class="subwrap">
 
-    <a href="https://twitter.com/amyhuaster" class="twitter-follow-button" data-show-count="false">Follow @amyhuaster</a>
+    <div class="row">
+      <div class="col-md-12">
+            <a href="https://twitter.com/amyhuaster" class="twitter-follow-button" data-show-count="false">Follow @amyhuaster</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 
@@ -10,6 +12,9 @@
     <div class="background" id="window-view"></div>
   </div>
   <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
+
+      </div>
+    </div>
 
   <div class="row">
     <div class="col-md-offset-4 col-md-8">
@@ -128,7 +133,7 @@
     <div class="col-md-6">
       <%= render 'contact' %>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-5">
       <%= render 'social' %>
     </div>
   </div>
