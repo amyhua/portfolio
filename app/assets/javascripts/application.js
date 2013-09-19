@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require jquery.parallax
+//= require messages
+//= require tooltips
 
 $.fn.setPeekHeight = function(){
     var freeSpace = $(window).height() - $(this).height();
