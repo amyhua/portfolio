@@ -5,6 +5,9 @@
       <div class="col-md-12">
             <a href="https://twitter.com/amyhuaster" class="twitter-follow-button" data-show-count="false">Follow @amyhuaster</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<% flash.each do |key, msg| %>
+            <%= content_tag :div, msg, id: key, class: 'flash' %>
+        <% end %>
 
 
   <div class='full-scale'>
@@ -33,9 +36,6 @@
       <%= render 'welcome'%>
 
       <div class="col-md-4">
-        <% flash.each do |key, msg| %>
-            <%= content_tag :div, msg, id: key, class: 'flash' %>
-        <% end %>
         <ul class="scene">
           <li class="layer" data-depth="3.0">
             <div id="balloon">
