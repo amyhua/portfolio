@@ -7,7 +7,8 @@ class ApplicationController < ActionController::Base
 
   def create
     @contact_form = Message.new(params[:message])
-    if @contact_form.save
+    @contact_form.save
+    if ContactMailer.contact_form_email(@contact_form).deliver
       redirect_to root_path, notice: 'Thank you for your message!'
     else
       redirect_to root_path, alert: 'Sorry, your message did not go through.'
