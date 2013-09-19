@@ -147,6 +147,7 @@ $(document).ready(function() {
     // Dynamically adjust white box positions depending upon window height
 // should be 71, 157, 374, 217
 
+    $('.social > a').tooltip();
 });
 
 $(window).load(function(){

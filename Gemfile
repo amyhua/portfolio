@@ -19,7 +19,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'contact_us', '~> 0.4.0'
+gem 'mail_form'
+gem 'simple_form'
+gem 'mailcatcher'
 
 group :production do
   gem 'pg'

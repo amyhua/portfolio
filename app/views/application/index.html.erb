@@ -20,6 +20,7 @@
   <div class="row">
     <div class="col-sm-6">
       <div id="home" class="main container peek-at-next">
+
         <div class="title">
           <span class="header">AMY<br>HUA </span><br><br>
           <span class="subheader"> Full Stack Web Developer</span>
@@ -35,6 +36,9 @@
       </div>
       </div>
       <div class="col-sm-4">
+        <% flash.each do |key, msg| %>
+            <%= content_tag :div, msg, id: key, class: 'flash' %>
+        <% end %>
         <ul class="scene">
           <li class="layer" data-depth="3.0">
             <div id="balloon">
@@ -211,20 +215,33 @@
         <div id="contact" class="white-box">
           <h1>Contact Me</h1>
           <p class="lead">
-            Stay in touch! And check back often. This site is still being actively updated.<br><br>
+            Say hello, ask me a question, or anything else!
+            I'm currently open to new clients and opportunities.<br><br>
             <%= render 'contact_form' %>
           </p>
         </div>
-        <div class="social">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'linkedin' %>
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'github' %>
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'twitter'%>
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'facebook'%>
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'mail' %>
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'phone' %>
-
-        </div>
       </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="social">
+        <a data-toggle="tooltip" title="/huaamy" data-placement="right" href="http://linkedin.com/in/huaamy">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'linkedin' %>
+        </a>
+        <a data-toggle="tooltip" title="/amyhua" data-placement="right" href="http://github.com/amyhua">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'github' %>
+        </a>
+        <a data-toggle="tooltip" title="@amyhuaster" data-placement="right" href="http://twitter.com/amyhuaster">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'twitter'%>
+        </a>
+        <a data-toggle="tooltip" title="/amyhua1990" data-placement="right" href="http://facebook.com/amyhua1990">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'facebook'%>
+        </a>
+        <a data-toggle="tooltip" title="foramyhua@gmail.com" data-placement="right" href="mailto: foramyhua@gmail.com">
+          <%= image_tag 'trans.png', class: 'contact-icons', id: 'mail' %>
+        </a>
+
+      </div>
+
     </div>
   </div>
   <div style="padding-top: 40px"></div>

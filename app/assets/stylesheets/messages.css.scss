@@ -1,0 +1,132 @@
+// Place all the styles related to the messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.flash {
+  position: absolute;
+  padding: 1em;
+  opacity: 0.9;
+  z-index: 9999;
+  top: 10px;
+  right: 0px;
+}
+#notice {
+  background-color: #D8FFD8;
+}
+#alert {
+  background-color: #FFD8D8;
+}
+
+/* Form Styles */
+input, textarea {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  border: solid 1px #B3B3B3;
+  font-size: 16px;
+  font-family: Colaborate;
+  width: 90%;
+  max-width: 90%;
+}
+textarea {
+  height: 6em;
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+
+.field {
+  text-align: left;
+}
+input:focus, textarea:focus {
+  outline-color: #DFC1D3;
+}
+
+.social {
+  margin-top: 2em;
+  position: relative;
+  z-index: 200;
+}
+.contact-icons:hover {
+  opacity: 0.7;
+}
+ul.contact {
+  width: 95%;
+}
+
+@media (min-width: 767px) {
+  .social {
+    width: 100px;
+  }
+}
+
+
+/* Tooltips */
+.tooltip {
+  position: absolute;
+  z-index: 650;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+.tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+.tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+.tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+
