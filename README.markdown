@@ -19,7 +19,7 @@ I made heavy use of [Parallax JS](https://github.com/wagerfield/parallax), custo
 
    * The max content width is currently set to 1500px. This can be customized in app/assets/stylesheets/application.css.erb:19.
 
-== Upcoming
+## Upcoming
 
 I will be adding a blogging component and an admin account for cloud posting soon!
 
