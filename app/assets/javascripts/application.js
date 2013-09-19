@@ -110,6 +110,12 @@ $(document).ready(function() {
             }
 
         }
+        if (pos_y < about_y && $('#window-view').hasClass('seattle')) {
+            $('#window-view').fadeOut(function() {
+                    $(this).removeClass('seattle').addClass('clouds').fadeIn();
+                });
+
+        }
         if (pos_y > uchicago_y && pos_y < (seattle_y - 500)) {
             // Change background to uchicago & display frame
             if ($('#window-view').hasClass('clouds')){
@@ -178,7 +184,7 @@ $(window).load(function(){
     $('.peek-at-next').each(function(){
         var freeSpace = $(window).height() - $(this).height();
         var fillerHeight = (freeSpace - 40) + 'px';
-        $(this).parent().parent().next().css('padding-top',fillerHeight);
+        $(this).parent().parent().next('.freeSpace').css('padding-top',fillerHeight);
         console.log($(this).height());
     });
 
