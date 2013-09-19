@@ -12,7 +12,7 @@
   <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
 
   <div class="row">
-    <div class="col-sm-offset-4 col-sm-8">
+    <div class="col-md-offset-4 col-md-8">
       <div class="nav">
         <a href="#" data-link="#home">HOME</a>
         <a href="#" data-link="#skills">SKILLS</a>
@@ -24,11 +24,11 @@
   </div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'welcome'%>
       <div class="mobile-view">You are accessing the mobile version.<br>This site is best viewed on a full-screen desktop.<br><br></div>
 
-      <div class="col-sm-4">
+      <div class="col-md-4">
         <% flash.each do |key, msg| %>
             <%= content_tag :div, msg, id: key, class: 'flash' %>
         <% end %>
@@ -45,10 +45,10 @@
   <div class="freeSpace" style="padding-top: 50em"></div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'skills' %>
     </div>
-    <div class="col-sm-5">
+    <div class="col-md-5">
       <ul class="scene">
         <li class="layer" data-depth="0.5">
           <div id="balloon-2">
@@ -99,7 +99,7 @@
 
   <!-- TODO: add a printer on the desk for a print preview of the resume -->
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'about' %>
       </div>
   </div>
@@ -107,7 +107,7 @@
   <div class="freeSpace" style="padding-top: 50em"></div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'about_current'%>
 
     </div>
@@ -116,7 +116,7 @@
   <div class="freeSpace" style="padding-top: 50em"></div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'work' %>
 
     </div>
@@ -125,10 +125,10 @@
   <div class="freeSpace" style="padding-top: 50em"></div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <%= render 'contact' %>
     </div>
-    <div class="col-sm-2">
+    <div class="col-md-2">
       <%= render 'social' %>
     </div>
   </div>
