@@ -25,6 +25,28 @@ $.fn.setPeekHeight = function(){
 
 $(document).ready(function() {
 
+    //preload images
+
+    function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+        });
+    }
+
+    preload([
+        'assets/seattle.png',
+        'assets/uchicago.png',
+        'assets/clouds.png',
+        'assets/contact_icons.png',
+        'assets/balloon.png',
+        'assets/balloons_7_pegs_m.png',
+        'assets/balloons_7_pegs.png',
+        'assets/uchicago.png',
+        'assets/me.png'
+    ]);
+
     // Hide or show images upon load
     $('#me').hide();
     $('#window-view').addClass('clouds');
