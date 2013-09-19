@@ -16,7 +16,13 @@
  *= require messages
  */
 
-
+.wrapper, .subwrap, .background, .horizontal {
+    max-width: 1500px;
+    margin: auto;
+}
+.horizontal {
+    margin: 0;
+}
 @font-face{
     font-family: 'Quicksand';
     src: url('<%= asset_path "Quicksand_Dash.otf" %>') format("opentype");
@@ -30,7 +36,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: Colaborate;
+    font-family: Colaborate, Trebuchet MS, Arial;
+    background-image: url('<%= asset_path 'tile.png'%>');
 }
 h1 {
     color: #FF00AD;

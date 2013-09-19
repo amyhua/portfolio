@@ -1,9 +1,12 @@
+<div class="wrapper">
+  <div class="subwrap">
 
 
   <div class='full-scale'>
     <%= image_tag 'window.png', id: 'frame', class: 'background'%>
     <div class="background" id="window-view"></div>
   </div>
+  <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
 
   <div class="row">
     <div class="col-sm-offset-4 col-sm-8">
@@ -125,7 +128,7 @@
   <div class="row no-padding">
     <div class="col-md-12 no-padding">
       <%= image_tag 'daytonight.png', class: 'transition-background transition', id: 'daytonight'%>
-      <div style="padding-top: 10em; background-color: #382119"></div>
+      <div class="horizontal" style="padding-top: 10em; background-color: #382119"></div>
       <span id="before-uchicago"></span>
       <div id="uchicago-filler" class="filler"></div>
       <%= image_tag 'uchicago.png', class: 'transition-background transition', id: 'uchicago'%>
@@ -157,9 +160,6 @@
         </div>
         </div>
       </div>
-    <div class="col-sm-5">
-      <%= image_tag 'me.png', class: 'desk-item', id: 'me'%>
-    </div>
   </div>
 
   <div class="freeSpace" style="padding-top: 50em"></div>
@@ -255,4 +255,7 @@
       ga('send', 'pageview');
 
   </script>
+</div>
+
+</div>
 
