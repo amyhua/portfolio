@@ -1,6 +1,6 @@
 ## Welcome to my Portfolio
 
-You can see this source code live on my website at (www.amyhua.me)[http://www.amyhua.me].
+You can see the source code live on my website at [www.amyhua.me](http://www.amyhua.me).
 
 I made heavy use of [Parallax JS](https://github.com/wagerfield/parallax), [jQuery](http://jquery.com) scripts for the animation and scrolling effects, and custom photography. The [Bootstrap](http://getbootstrap.com) grid system was used for responsive layout design. Social icons are courtesy of [Alex Peattie](http://www.alexpeattie.com/projects/justvector_icons/).
 
