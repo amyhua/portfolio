@@ -3,8 +3,6 @@ ColabThi.otf: ColabThi-3b6373b7b0c99935b6456ecd7b31f1e3.otf
 ColabThi/index.otf: ColabThi-3b6373b7b0c99935b6456ecd7b31f1e3.otf
 Quicksand_Dash.otf: Quicksand_Dash-59e78b79e7aafdbe5a29f1de41cdcc25.otf
 Quicksand_Dash/index.otf: Quicksand_Dash-59e78b79e7aafdbe5a29f1de41cdcc25.otf
-available_sign.png: available_sign-2370aab6508dc7e5e9599b1de292563f.png
-available_sign/index.png: available_sign-2370aab6508dc7e5e9599b1de292563f.png
 balloon.png: balloon-cad4d85881409699d0fdb0602effb0f5.png
 balloon/index.png: balloon-cad4d85881409699d0fdb0602effb0f5.png
 balloons_7_pegs.png: balloons_7_pegs-c2346147c0b7a81c65365cd1b647bb96.png
@@ -37,8 +35,8 @@ uchicago.png: uchicago-539f92a1b934be63aeb519d5e9d2ed63.png
 uchicago/index.png: uchicago-539f92a1b934be63aeb519d5e9d2ed63.png
 window.png: window-88dfd597ac6f1e62e0d7b8896d4c18e2.png
 window/index.png: window-88dfd597ac6f1e62e0d7b8896d4c18e2.png
-application.js: application-85c1b4cdd17e5835f48f9c53261c6abb.js
-application/index.js: application-85c1b4cdd17e5835f48f9c53261c6abb.js
+application.js: application-22f3ab5d99f129cef7237cec36a6b93f.js
+application/index.js: application-22f3ab5d99f129cef7237cec36a6b93f.js
 application.css: application-7f0e97498ea3ac233e2402b296f8027c.css
 application/index.css: application-7f0e97498ea3ac233e2402b296f8027c.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
