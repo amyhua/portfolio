@@ -14,4 +14,9 @@ class ApplicationController < ActionController::Base
       redirect_to root_path, alert: 'Sorry, your message did not go through.'
     end
   end
+
+  def mobile
+    @contact_form = Message.new
+  end
+
 end

@@ -25,22 +25,8 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div id="home" class="main container peek-at-next">
+      <%= render 'welcome'%>
 
-        <div class="title">
-          <span class="header">AMY<br>HUA </span><br><br>
-          <span class="subheader"> Full Stack Web Developer</span>
-        </div>
-        <div style="padding-top: 3em;"></div>
-        <div class="title white-box" id="welcome">
-          <h1>Welcome!</h1>
-          <p class="lead">
-            I am a Ruby on Rails developer with an artsy side.<br>
-            I help people build well-designed web products.
-          </p>
-        </div>
-      </div>
-      </div>
       <div class="col-sm-4">
         <% flash.each do |key, msg| %>
             <%= content_tag :div, msg, id: key, class: 'flash' %>
@@ -59,36 +45,7 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container">
-        <div id="skills" class="white-box">
-          <h1>This portfolio has been brought to you by</h1>
-          <ul class="lead two-column clearfix">
-            <li>Ruby on Rails</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>ParallaxJS</li>
-            <li>Git</li>
-            <li>Heroku</li>
-            <li>Photoshop</li>
-          </ul>
-        </div>
-        <div style="padding-bottom: 3em;"></div>
-        <div class="white-box">
-          <h1>I also use </h1>
-          <ul class="lead two-column clearfix">
-            <li>Coffeescript</li>
-            <li>EmberJS</li>
-            <li>AJAX</li>
-            <li>AWS</li>
-            <li>Test::Unit (TDD)</li>
-            <li>RSpec (TDD)</li>
-            <li>Capybara (BDD)</li>
-            <li>Jasmine (BDD)</li>
-          </ul>
-        </div>
-      </div>
+      <%= render 'skills' %>
     </div>
     <div class="col-sm-5">
       <ul class="scene">
@@ -142,35 +99,7 @@
   <!-- TODO: add a printer on the desk for a print preview of the resume -->
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container peek-at-next">
-        <div id="about" class="white-box">
-            <h1>About Me</h1>
-            <p class="lead">
-              My name is Amy Hua. I would describe myself as a creative, technical, and aspiring entrepreneur. My goal is to live a dense life. In that pursuit, I have:</p>
-              <div style="padding-left:1em">
-
-              been an avid <span class="pink">painter</span> and a <span class="pink">drawer</span> from ages 4 through college.
-              <br><br>
-              <span class="pink">founded a nonprofit</span> and managed over 40 volunteers running a 16-room Victorian mansion on a daily basis.
-              <br><br>
-              <span class="pink">couchsurfed</span> across the country.
-              <br><br>
-              been a <span class="pink">motorcyclist</span>, <span class="pink">scuba diver</span>, and <span class="pink">rock climber</span>.
-              <br><br>
-              held <span class="pink">14 different jobs</span> since I was 14.
-              <br><br>
-            </div>
-            <p class="lead">
-
-              I graduated from a Top 3 Undergraduate Math program at the
-              the <span class="pink">University of Chicago</span>
-              and earned a <span class="pink">Mathematics B.S.</span> before I became an <span class="pink">analytics consultant</span> for a
-              Top 4 global management consulting giant. One day, I dropped it all, because I
-              realized I wasn't doing what I really wanted.<br><br>
-              What I <em>really</em> wanted to do was open my computer and <span class="pink">code</span>.<br>
-            </p>
-        </div>
-        </div>
+      <%= render 'about' %>
       </div>
   </div>
 
@@ -178,18 +107,8 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <span id="before-seattle"></span>
-      <div class="main container peek-at-next">
-        <div class="white-box">
-          <p class="lead">
-            I moved to Seattle, WA to participate in an intensive study on web development through
-            <a href="http://codefellows.com" class="pink">CodeFellows</a>, where I realized my love for
-            making products through code.<br><br>I'm now working on freelance work in between developing my own projects and searching for
-            <span class="pink">full-time work opportunities in the startup tech space.</span>
+      <%= render 'about_current'%>
 
-          </p>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -197,23 +116,8 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container peek-at-next">
-        <div id="work" class="white-box">
-          <h1>My Work</h1>
-          <p class="lead">
-            I'm currently building:  <br><br>
-              <span class="pink">LivePlugin</span>: a Google Maps integrated events calendar application
-              for live events in your local area.
-            <br><br>
-            <span class="pink">LDD</span>: a virtual tournament platform, forums, and evidence exchange for local high school debaters.</li>
-            <br><br>
-            <span class="pink">Eat Sumthin</span>: a reverse recipe search engine that searches by ingredients.</b></li>
-            <br><br>
+      <%= render 'work' %>
 
-            See what I built <a href="http://github.com/amyhua" style="color: #FF00AD">in just a few weeks time on my GitHub.</a>
-          </p>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -221,37 +125,10 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="main container peek-at-next">
-        <div id="contact" class="white-box">
-          <h1>Contact Me</h1>
-          <p class="lead">
-            Say hello, ask me a question, or anything else!
-            I'm currently open to new client projects and opportunities.<br><br>
-            <%= render 'contact_form' %>
-          </p>
-        </div>
-      </div>
+      <%= render 'contact' %>
     </div>
     <div class="col-sm-2">
-      <div class="social">
-        <a data-toggle="tooltip" title="/huaamy" data-placement="right" href="http://linkedin.com/in/huaamy">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'linkedin' %>
-        </a>
-        <a data-toggle="tooltip" title="/amyhua" data-placement="right" href="http://github.com/amyhua">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'github' %>
-        </a>
-        <a data-toggle="tooltip" title="@amyhuaster" data-placement="right" href="http://twitter.com/amyhuaster">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'twitter'%>
-        </a>
-        <a data-toggle="tooltip" title="/amyhua1990" data-placement="right" href="http://facebook.com/amyhua1990">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'facebook'%>
-        </a>
-        <a data-toggle="tooltip" title="foramyhua@gmail.com" data-placement="right" href="mailto: foramyhua@gmail.com">
-          <%= image_tag 'trans.png', class: 'contact-icons', id: 'mail' %>
-        </a>
-
-      </div>
-
+      <%= render 'social' %>
     </div>
   </div>
   <div style="padding-top: 40px"></div>
