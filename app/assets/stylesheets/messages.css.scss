@@ -49,6 +49,11 @@ input:focus, textarea:focus {
   position: relative;
   z-index: 200;
 }
+
+.social a {
+  text-decoration: none;
+}
+
 .contact-icons:hover {
   opacity: 0.7;
 }
