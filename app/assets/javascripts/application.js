@@ -14,6 +14,13 @@
 //= require jquery_ujs
 //= require_tree .
 
+$.fn.setPeekHeight = function(){
+    var freeSpace = $(window).height() - $(this).height();
+    var fillerHeight = (freeSpace - 50) + 'px';
+    $(this).parent().parent().next().css('padding-top',fillerHeight);
+    console.log('Height '+fillerHeight);
+}
+
 $(document).ready(function() {
 
     // Hide or show images upon load
@@ -47,14 +54,28 @@ $(document).ready(function() {
         $('.filler').css('padding-top',height);
     });
 
+    $('a[data-link="#home"]').css('color','white');
+
     // Fix background at certain scroll positions
     $(window).scroll(function() {
-        var seattle_y = $('#before-seattle').offset().top
+
         var uchicago_y = $('#before-uchicago').offset().top
         var about_y = $('#about').offset().top
+        var seattle_y = $('#before-seattle').offset().top
+        var skills_y = $('#skills').offset().top
+        var work_y = $('#work').offset().top
+        var contact_y = $('#contact').offset().top
+        var pos_y = $(this).scrollTop()
 
-        var pos_y = $(this).scrollTop();
 
+        if (pos_y < 100){
+            $('.nav a').css('color','#F0C');
+            $('a[data-link="#home"]').css('color','white');
+        }
+        if (pos_y > (skills_y-75) && pos_y < uchicago_y){
+            $('.nav a').css('color','#F0C');
+            $('a[data-link="#skills"]').css('color','white');
+        }
         if (pos_y < uchicago_y) {
             // Scroll up school and transition background to clouds && fade out frame
             $('#uchicago-filler').hide();
@@ -63,6 +84,7 @@ $(document).ready(function() {
             if ($('#me').is(':visible')){
                 $('#me').fadeOut().hide();
             }
+
         }
         if (pos_y > uchicago_y && pos_y < (seattle_y - 500)) {
             // Change background to uchicago & display frame
@@ -70,7 +92,6 @@ $(document).ready(function() {
                 $('#uchicago').hide();
                 $('#uchicago-filler').show();
                 $('#window-view').removeClass('clouds').addClass('uchicago');
-                $('#me').fadeIn().show();
             }
 
 
@@ -81,6 +102,12 @@ $(document).ready(function() {
                 });
             }
         }
+        if (pos_y > uchicago_y && pos_y < (work_y-100)){
+            if ($('#me').is(':hidden')){
+                $('#me').fadeIn().show();
+            }
+        }
+
         if (pos_y > (seattle_y-500)) {
             // Fade to Seattle
             if ($('#window-view').hasClass('uchicago') || $('#window-view').hasClass('clouds')) {
@@ -88,6 +115,22 @@ $(document).ready(function() {
                     $(this).removeClass('uchicago').removeClass('clouds').addClass('seattle').fadeIn();
                 });
             }
+        }
+        if (pos_y > uchicago_y && pos_y < (work_y - 100)){
+            $('.nav a').css('color','#F0C');
+            $('a[data-link="#about"]').css('color','white');
+        }
+        if (pos_y > (work_y - 100) && pos_y < (contact_y - 100)){
+            $('.nav a').css('color','#F0C');
+            $('a[data-link="#work"]').css('color','white');
+            if ($('#me').is(':visible')){
+                $('#me').fadeOut();
+            }
+        }
+        if (pos_y > (contact_y - 100)){
+            $('.nav a').css('color','#F0C');
+            $('a[data-link="#contact"]').css('color','white');
+
         }
     });
 
@@ -101,5 +144,17 @@ $(document).ready(function() {
             .animate({scrollTop: targetOffset}, 1000);
     });
 
-    $('.carousel').carousel();
+    // Dynamically adjust white box positions depending upon window height
+// should be 71, 157, 374, 217
+
+    $('.social > a').tooltip();
 });
+
+$(window).load(function(){
+    $('.peek-at-next').each(function(){
+        var freeSpace = $(window).height() - $(this).height();
+        var fillerHeight = (freeSpace - 40) + 'px';
+        $(this).parent().parent().next().css('padding-top',fillerHeight);
+        console.log($(this).height());
+    });
+})

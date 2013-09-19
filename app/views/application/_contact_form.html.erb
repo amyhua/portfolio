@@ -1,0 +1,22 @@
+<%= form_for @contact_form do |f| %>
+    <ul class="contact">
+      <li class="field">
+        <%= f.text_field :name, label: false, placeholder: 'Name',
+                    required: true %>
+      </li>
+      <li class="field">
+        <%= f.text_field :email, label: false, placeholder: 'Email Address',
+                    required: true %>
+      </li>
+      <li class="field">
+        <%= f.text_area :content, label: false, placeholder: 'Message',
+                    required: true %>
+      </li>
+      <li class="field">
+        <%= f.submit :submit, value:'Send' %>
+
+      </li>
+
+    </ul>
+
+<% end %>
