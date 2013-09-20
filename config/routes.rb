@@ -8,7 +8,7 @@ Portfolio2::Application.routes.draw do
   match '/' => 'application#create'
   get '/mobile', to: 'application#mobile'
 
-  get '/google82ac6e064e6d91cd.html', to 'application#google82ac6e064e6d91cd.html'
+  get '/google82ac6e064e6d91cd.html', to: 'application#google82ac6e064e6d91cd.html'
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
