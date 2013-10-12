@@ -41,9 +41,9 @@ uchicago.png: uchicago-f05d5e886e9791674fa9fe538a8b53c3.png
 uchicago/index.png: uchicago-f05d5e886e9791674fa9fe538a8b53c3.png
 window.png: window-6a379f2b4fe001012e68eef0807d1503.png
 window/index.png: window-6a379f2b4fe001012e68eef0807d1503.png
-application.js: application-c337a51f39a4735d35c3dc56c8dab0bf.js
-application/index.js: application-c337a51f39a4735d35c3dc56c8dab0bf.js
-application.css: application-047b8c9d659904d20b4ee303f8222508.css
-application/index.css: application-047b8c9d659904d20b4ee303f8222508.css
+application.js: application-d7fca844c005c9c8aa00cb43ad482fdc.js
+application/index.js: application-d7fca844c005c9c8aa00cb43ad482fdc.js
+application.css: application-9e46d65373f2fd05597c42ad188f563b.css
+application/index.css: application-9e46d65373f2fd05597c42ad188f563b.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
